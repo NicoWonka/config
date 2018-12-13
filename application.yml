@@ -1,10 +1,10 @@
 spring:
-    profiles: test
-name: test-YAML
-environment: test
+    profiles: desa
+name: desa-YAML
+environment: desa
 servers: 
-    - www.abc.test.com
-    - www.xyz.test.com
+    - www.abc.desa.com
+    - www.xyz.desa.com
  
 ---
 spring:
