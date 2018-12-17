@@ -3,8 +3,8 @@ base:
     scheme: http
     domain: localhost
     
-backend:
-  db:
+spring:
+  datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/demo?createDatabaseIfNotExist=true
     username: demo
