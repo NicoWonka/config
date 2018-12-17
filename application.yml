@@ -6,7 +6,7 @@ base:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/demo?createDatabaseIfNotExist=true
+    url: jdbc:postgresql://localhost:5432/demo
     username: demo
     password: demo
   jpa:
