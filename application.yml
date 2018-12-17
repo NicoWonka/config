@@ -6,9 +6,9 @@ base:
 backend:
   db:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/?createDatabaseIfNotExist=true
-    username: postgres
-    password: postgres
+    url: jdbc:postgresql://localhost:5432/demo?createDatabaseIfNotExist=true
+    username: demo
+    password: demo
   jpa:
     hibernate:
       ddl-auto: none
